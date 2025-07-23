@@ -89,50 +89,50 @@ Certifique-se de que seu relé é compatível com os 3.3V do ESP8266 (alguns rel
 
 # Configuração do Software
 ## Configuração do Google Sheets e Apps Script
-    *Crie uma Nova Planilha Google Sheets:
-    
-    Acesse Google Sheets e crie uma nova planilha.
-    
-    Você pode nomear as colunas da sua planilha (ex: "Data", "Hora", "Dispositivo", "Temperatura (°C)", "Umidade (%)").
-    
-    Crie e Publique o Google Apps Script:
-    
-    Na sua planilha, vá em Extensões > Apps Script.
-    
-    Copie e cole o conteúdo do arquivo google_apps_script/code.js (fornecido neste repositório) no editor de scripts.
-    
-    Altere o planilhaID no código para o ID da sua planilha (você encontra o ID na URL da sua planilha, entre /d/ e /edit).
-    
-    Salve o script (ícone de disquete).
-    
-    Implante o Script como Web App:
-    
-    Clique em Implantar (Deploy) > Nova implantação.
-    
-    Para "Tipo de implantação", escolha "Aplicativo da Web".
-    
-    Em "Executar como", selecione "Eu" (seu e-mail).
-    
-    Em "Quem tem acesso", selecione "Qualquer pessoa".
-    
-    Clique em "Implantar".
-    
-    O Google pedirá autorização. Autorize o script a acessar suas planilhas.
-    
-    Após o deploy, você receberá a URL do aplicativo da Web. COPIE ESTA URL COMPLETA (ela terminará em /exec). Esta será a appscriptID no seu código ESP8266 (mas você precisará extrair apenas o ID da URL completa para a variável appscriptID).
+ * Crie uma Nova Planilha Google Sheets:
+ 
+ * Acesse Google Sheets e crie uma nova planilha.
+ 
+ * Você pode nomear as colunas da sua planilha (ex: "Data", "Hora", "Dispositivo", "Temperatura (°C)", "Umidade (%)").
+ 
+ * Crie e Publique o Google Apps Script:
+ 
+ * Na sua planilha, vá em Extensões > Apps Script.
+ 
+ * Copie e cole o conteúdo do arquivo google_apps_script/code.js (fornecido neste repositório) no editor de scripts.
+ 
+ * Altere o planilhaID no código para o ID da sua planilha (você encontra o ID na URL da sua planilha, entre /d/ e /edit).
+ 
+ * Salve o script (ícone de disquete).
+ 
+ * Implante o Script como Web App:
+ 
+ * Clique em Implantar (Deploy) > Nova implantação.
+ 
+ * Para "Tipo de implantação", escolha "Aplicativo da Web".
+ 
+ * Em "Executar como", selecione "Eu" (seu e-mail).
+ 
+ * Em "Quem tem acesso", selecione "Qualquer pessoa".
+ 
+ * Clique em "Implantar".
+ 
+ * O Google pedirá autorização. Autorize o script a acessar suas planilhas.
+ 
+ * Após o deploy, você receberá a URL do aplicativo da Web. COPIE ESTA URL COMPLETA (ela terminará em /exec). Esta será a appscriptID no seu código ESP8266 (mas você precisará extrair apenas o ID da URL completa para a variável appscriptID).
 
-* Configuração do Código ESP8266 (Arduino Cloud)
-    Abra o Projeto: Abra o arquivo src/Flor_IoT_jul21a.ino e vá para o Arduino Cloud.
-    
-    Crie uma "Thing": No Arduino Cloud crie uma "coisa" e cole o código em Sketch
-    
-    Configuração: No Arduino Cloud em Setup associe o seu dispositivo e configure a conexão com a rede Wifi
-    
-    Baixe o Arduino Cloud Agent: Este aplicativo ajudará o Arduino Cloud a se conectar com o seu dispositivo
-    
-    Faça o Upload: Conecte seu ESP8266 ao computador, selecione a placa (Node MCU 1.0 - ESP-12E Module) e a porta corretas na Arduino Cloud e faça o upload do código.
-    
-    Monitore: Abra o Serial Monitor (com a mesma taxa de Serial.begin(115200)) para ver o progresso da conexão, leituras do sensor, ações do relé e respostas do Apps Script.
+## Configuração do Código ESP8266 (Arduino Cloud)
+ * Abra o Projeto: Abra o arquivo src/Flor_IoT_jul21a.ino e vá para o Arduino Cloud.
+ 
+ * Crie uma "Thing": No Arduino Cloud crie uma "coisa" e cole o código em Sketch
+ 
+ * Configuração: No Arduino Cloud em Setup associe o seu dispositivo e configure a conexão com a rede Wifi
+ 
+ * Baixe o Arduino Cloud Agent: Este aplicativo ajudará o Arduino Cloud a se conectar com o seu dispositivo
+ 
+ * Faça o Upload: Conecte seu ESP8266 ao computador, selecione a placa (Node MCU 1.0 - ESP-12E Module) e a porta corretas na Arduino Cloud e faça o upload do código.
+ 
+ * Monitore: Abra o Serial Monitor (com a mesma taxa de Serial.begin(115200)) para ver o progresso da conexão, leituras do sensor, ações do relé e respostas do Apps Script.
 
 # Visualizando os Dados e o Impacto
 Uma vez que o ESP8266 esteja funcionando e enviando dados, abro minha planilha Google Sheets e vejo novas linhas sendo adicionadas automaticamente com os dados de temperatura, umidade e o timestamp. Esse monitoramento contínuo e o controle ativo me trazem uma total felicidade, realização e satisfação, sabendo que estou ativamente cuidando da saúde e conforto da Flor, mesmo quando não estou em casa. Posso criar gráficos na planilha para visualizar as tendências e confirmar que ela esteja sempre na zona de temperatura ideal.
@@ -141,8 +141,8 @@ Uma vez que o ESP8266 esteja funcionando e enviando dados, abro minha planilha G
 Sinta-se à vontade para abrir issues ou pull requests caso encontre bugs ou queira adicionar melhorias!
 
 # Autor
-Cleidson Santos Oliveira 
+Cleidson Santos Oliveira
 * [LinkedIn](https://www.linkedin.com/in/cleidson-oliveira-7b7248215/)
 
 # Licença
-Este projeto é licenciado sob a Licença MIT.
+Este projeto é licenciado sob a Apache 2.0 license.

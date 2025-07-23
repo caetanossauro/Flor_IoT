@@ -1,0 +1,35 @@
+:Author: cleidsonsantosoliveira
+:Email: queusantos858@gmail.com
+:Date: 21/07/2025
+:Revision: version1
+:License: Public Domain
+
+= Projeto: Flor_IoT
+
+Descrição:
+Desenvolvi um sistema completo que usa um ESP8266, um sensor DHT22 e um módulo relé. Ele coleta dados de temperatura e umidade da toca da Flor e, de forma autônoma, aciona uma lâmpada de aquecimento (baseado em um limite mínimo de 26°C) para manter o ambiente estável. Todos os dados são enviados para uma planilha Google Sheets via Google Apps Script para que eu possa acompanhar o histórico remotamente.
+
+=== License
+Este projeto é licenciado pela Apache 2.0 License.
+
+=== Contributing
+Para contribuir com esse projeto entre em contato com : Cleidson Oliveira (LinkedIn - https://www.linkedin.com/in/cleidson-oliveira-7b7248215/) / (Email - queusantos858@gmail.com)
+
+=== BOM (Bill of Materials)
+
+|===
+| ID | Part name                           | Part number      | Quantity
+| N1 | NodeMCU ESP8266-12 V2               | ESP-12E Module   | 1       
+| R1 | Módulo Relé 1 Canal 5V              | SRD-5VDC-SL-C    | 1
+| P1 | Mini Protoboard 170 Pontos - Branca | ---------------- | 1
+| A1 | Sensor DHT22                        | RHT03            | 1        
+| J1 | Jumpers Macho-Fêmea                 | ---------------- | 6
+| F1 | Fonte USB 5V                        | ---------------- | 1
+| C1 | Cabo USB Micro B 80cm               | ---------------- | 1
+|===
+
+
+=== Help
+This document is written in the _AsciiDoc_ format, a markup language to describe documents. 
+If you need help you can search the http://www.methods.co.nz/asciidoc[AsciiDoc homepage]
+or consult the http://powerman.name/doc/asciidoc[AsciiDoc cheatsheet]

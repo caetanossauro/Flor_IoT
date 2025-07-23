@@ -5,7 +5,7 @@ function doGet(e) {
     resultado = 'Nenhum parâmetro';
   }
   else {
-    var planilhaID = '1SWtK3nawAJUudd2J-w1rAew8Q0T_fR8tZuigiXfgNwE';
+    var planilhaID = 'ID-DA-SUA-PLANILHA';
     var planilha = SpreadsheetApp.openById(planilhaID).getActiveSheet();
     var newRow = planilha.getLastRow() + 1;						
     var linhaDados = [];

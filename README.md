@@ -4,6 +4,15 @@ Um projeto de Internet das Coisas (IoT) essencial para garantir o bem-estar da m
 # Sobre o Projeto
 Este projeto nasceu de uma necessidade muito pessoal: garantir o bem-estar da minha querida jabuti piranga, Flor. Vivendo em Lauro de Freitas, Bahia, percebi que o clima na minha cidade varia bastante ao longo do dia e das estações. Sabendo que a espécie de Flor, Chelonoidis carbonarius, tem uma temperatura ideal de bem-estar entre 25°C e 30°C, e passando a maior parte do dia fora de casa, não conseguia monitorar presencialmente se ela estava na faixa de conforto.
 
+| :placard: Vitrine.Dev |     |
+| -------------  | --- |
+| :sparkles: Nome        | **Minha Jornada de IoT: Como o ESP8266 e Google Sheets Estão Garantindo o Conforto da Flor**
+| :label: Tecnologias | C, C++, JavaScript
+| :rocket: Artigo no LinkedIn         | https://www.linkedin.com/pulse/minha-jornada-de-iot-como-o-esp8266-e-google-sheets-est%25C3%25A3o-oliveira-snvxf/?trackingId=nmJqP%2BIuRrKNB2PwHboB%2BQ%3D%3D
+| :fire: Repositório     | https://github.com/caetanossauro/Flor_IoT
+<!-- Inserir imagem com a #vitrinedev ao final do link -->
+![](https://media.licdn.com/dms/image/v2/D4D12AQG7RDraSeTW3Q/article-cover_image-shrink_720_1280/B4DZg3xpm4H4AI-/0/1753282420788?e=1758758400&v=beta&t=xq8taRtJCr4Hry34_JBu61c5AZgRt4-6uVQmIwHBIKc#vitrinedev)
+
 A ideia foi implementar um sistema de monitoramento e controle ambiental remoto diretamente na toca da Flor – o lugar onde ela adora ficar e onde dorme. O sistema não apenas coleta dados de temperatura e umidade em tempo real, mas também aciona automaticamente um dispositivo (lampada de cerâmica) via relé para manter a temperatura dentro da faixa ideal. As primeiras medições confirmaram a variabilidade: 17/07/2027, a temperatura mínima registrada foi de 21,60°C e a média foi de 24,37°C, reforçando a importância deste monitoramento e controle ativo.
 
 # Funcionalidades
